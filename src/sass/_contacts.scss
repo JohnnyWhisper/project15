@@ -1,0 +1,156 @@
+
+.container{
+    padding-top: 132px;
+    padding-bottom: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__list{
+    display: flex;
+}
+
+.contacts__item{
+    width: 330px;
+    height: 572px;
+    background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+border-radius: 24px;
+    padding: 0 44px 0 43px;
+    margin-right: 30px;
+    &:last-child{
+        margin-right: 0px;
+    }
+}
+
+.contacts__title{
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 186%;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+margin-top: 51px;
+width: 73px;
+background: #F0D1A5;
+border-radius: 6px;
+display: flex;
+justify-content: center;
+}
+
+.contacts__title-green{
+    background: #C2E297;
+}
+
+.contacts__pre-title{
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 186%;
+letter-spacing: 0.04em;
+color: #000000;
+margin-top: 32px;
+}
+
+.contacts__text{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 183%;
+letter-spacing: 0.04em;
+color: #907E82;
+margin-top: 10px;
+}
+
+.working-days__title{
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 186%;
+letter-spacing: 0.04em;
+color: #000000;
+margin-top: 64px;
+}
+
+.working-days__pre-title{
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 186%;
+color: #FFA5BA;
+}
+
+.contacts__tel{
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 183%;
+color: #907E82;
+}
+
+.contacts__mail{
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 183%;
+color: #907E82;
+}
+
+.button__list{
+    margin-top: 86px;
+    display: flex;
+    justify-content: center;
+}
+
+.button__item{
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.button-red{
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+width: 198px;
+height: 44px;
+background: #D41342;
+border-radius: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+}
+
+.button{
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+color: #D41342;
+width: 198px;
+height: 44px;
+background: #FFFFFF;;
+border-radius: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+}
