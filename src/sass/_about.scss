@@ -166,7 +166,8 @@
   cursor: pointer;
   border: none;
   border-radius: 22px;
-  padding: 17px 36px;
+  width: 176px;
+  height: 44px;
   background-color: #ffffff;
   color: #d41443;
   font-family: DM Sans;
@@ -176,6 +177,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
 }
 .section-about__btn-svg {
   fill: #d41443;
