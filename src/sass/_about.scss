@@ -125,12 +125,21 @@
 .section-about__item:not(:last-child) {
   margin-bottom: 38px;
 }
-.section-about__itemNumber-img1::before {
-  content: ' ';
+.section-about__itemImg {
+  height: 50px;
   display: block;
-  object-fit: contain;
-  background-image: url('../images/aboveMilk.png');
   background-repeat: no-repeat;
+  margin-bottom: 16px;
+}
+.section-about__itemImg--first {
+  width: 33px;
+  background-image: url('../images/aboveMilk.png');
+}
+.section-about__itemImg--second {
+  background-image: url('../images/aboveApple.png');
+}
+.section-about__itemImg--third {
+  background-image: url('../images/aboveSweet.png');
 }
 .section-about__itemNumber {
   margin: 0px;
