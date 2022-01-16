@@ -209,13 +209,13 @@
   background-repeat: no-repeat;
   margin-bottom: 16px;
   &--first {
-    background-image: url('../images/aboveMilk.png');
+    background-image: url('./images/aboveMilk.png');
   }
   &--second {
-    background-image: url('../images/aboveApple.png');
+    background-image: url('./images/aboveApple.png');
   }
   &--third {
-    background-image: url('../images/aboveSweet.png');
+    background-image: url('./images/aboveSweet.png');
   }
 }
 
