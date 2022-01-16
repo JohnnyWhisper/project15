@@ -1,0 +1,113 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: block;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.swiper-pagination-bullet-active {
+    background-image: url(../images/customer-reviews/home-1.svg);
+    background-size: cover;
+    border-radius: unset;
+    width: 20px;
+    height: 20px;
+}
+
+.reviews-section__photo {
+    width: 85px;
+    height: 85px;
+     margin-bottom: 29px;
+     align-items: center;
+    @media screen and (min-width: 768px) and (max-width: 1279px){
+        margin-bottom: 19px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 15px;
+    }
+}
+
+.review-text-container {
+    background-color: #FAFAFA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+        padding-top: 30px;
+        padding-bottom: 28px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+.reviews-section__review-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.58;
+    text-align: center;
+}
+
+.reviews-section__clients-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: center;
+    justify-content: center;
+    /* &::before {
+        content: "";
+        height: 4px;
+        width: 4px;
+        background-color: #C7133E;
+        border-radius: 50%;
+        position: absolute;
+        margin-bottom: 18px;
+        margin-right: 10px;
+    } */
+}
+
+.swiper-slide__elipsis-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    margin-top: 30px;
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+        margin-bottom: 24px;
+        margin-top: 14px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+
+.elipsis-list__container {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #C7133E;
+}
+
+.elipsis-list__item:not(:last-child) {
+    margin-right: 10px;
+}
