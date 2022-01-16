@@ -1,70 +1,48 @@
 
 .gallery {
     padding:0;
-}
-.gallery-set {
-
-    width: 100%;
-
     background-image: 
     linear-gradient( 
         #FFF5F6 35%, 
         #FFFFFF 
     ),
+}
+.gallery-set {
+
+    width: 100%;
+
+    background-image:     
     url(../images/gallery/gallery-set-mob.jpg);
 
         @media (min-device-pixel-ratio: 2),
               (min-resolution: 192dpi),
               (min-resolution: 2dppx) {
               background-image: 
-              linear-gradient( 
-                #FFF5F6 35%, 
-                #FFFFFF     
-             ),
              url(../images/gallery/gallery-set-mob2x.jpg);
            }
 
 
   @media screen and (min-width:768px) {
     background-image: 
-    linear-gradient( 
-        #FFF5F6 35%, 
-        #FFFFFF 
-    ),
     url(../images/gallery/gallery-set-tablet.jpg);
 
         @media (min-device-pixel-ratio: 2),
                (min-resolution: 192dpi),
                (min-resolution: 2dppx) {
                background-image: 
-                linear-gradient( 
-                    #FFF5F6 35%, 
-                    #FFFFFF 
-                ),
                 url(../images/gallery/gallery-set-tablet2x.jpg);
         }
   }
 
   @media screen and (min-width:1200px) {
-    display:flex;
-    padding-top:200px;
-    padding-bottom:200px;
-    background-size: cover;
+    
     background-image: 
-    linear-gradient( 
-        #FFF5F6 35%, 
-        #FFFFFF 
-    ),
     url(../images/gallery/gallery-set-desktop.jpg);
 
       @media (min-device-pixel-ratio: 2),
              (min-resolution: 192dpi),
              (min-resolution: 2dppx) {
              background-image: 
-             linear-gradient( 
-                #FFF5F6 35%, 
-                #FFFFFF 
-             ),
             url(../images/gallery/gallery-set-desktop2x.jpg);
 
         }
