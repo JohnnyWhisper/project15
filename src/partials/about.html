@@ -1,38 +1,34 @@
 <section class="section-about" id="about">
-    <div class="container">
+    <div class="container-about">
         <p class="section-about__prehederText">tradition and love</p>
         <h2 class="section-about__hederText">how it's made?</h2>
-        <img 
-            srcset="
-            images/how-its-made-cow-mob-1x.png 1x,
-            images/how-its-made-cow-mob-2x.png 2x"
-            src="images/how-its-made-cow-mob-1x.png" alt="Cow" class="section-about__image">   
-        <div class="wrapper-text">
-            <p class="section-about__afterhederText">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
-            Maecenas eleifend erat at justo fringilla.</p>             
-            <p class="section-about__afterhederText2 ">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
-            Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
-            </p>
-            <p class="section-about__afterhederText2 section-about__afterhederText3">Aliquam erat volutpat. Aenean accumsan.</p>
-            <button type="button" aria-label="Read more" class="section-about__btn" >
-                Read more
-                <svg width="10" height="10" src="images/vector-btn.svg" class="section-about__btn-svg">                   
-                </svg>
-            </button>
-        </div>    
-        <ul class="section-about__list">
-            <li class="section-about__item">
-                <p class="section-about__itemNumber section-about__itemNumber-img1">729</p>
-                <p class="section-about__itemText">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-            </li>
-            <li class="section-about__item">
-                <p class="section-about__itemNumber section-about__itemNumber-img2">16kg</p>
-                <p class="section-about__itemText">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-            </li>
-            <li class="section-about__item">
-                <p class="section-about__itemNumber section-about__itemNumber-img3">84</p>
-                <p class="section-about__itemText">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-            </li>
-        </ul>
+        <div class="wrapper">
+            <picture >
+                <source srcset="
+                    ./images/how-its-made-cow-desk-1x.png 1x,
+                    ./images/how-its-made-cow-desk-2x.png 2x" media="(min-width: 1200px)">
+                <source srcset="
+                    ./images/how-its-made-cow-tab-1x.png 1x,
+                    ./images/how-its-made-cow-desk-2x.png 2x" media="(min-width: 768px)">
+                <source srcset="
+                    ./images/how-its-made-cow-mob-1x.png 1x,
+                    ./images/how-its-made-cow-mob-2x.png 2x" media="(min-width: 320px)">
+                <img src="./images/how-its-made-cow-mob-1x.png" alt="Cow" class="section-about__image">
+            </picture>   
+            <div class="wrapper-text">
+                <p class="section-about__afterhederText">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
+                Maecenas eleifend erat at justo fringilla.</p>             
+                <p class="section-about__afterhederText2 ">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
+                Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+                </p>
+                <p class="section-about__afterhederText2 section-about__afterhederText3">Aliquam erat volutpat. Aenean accumsan.</p>
+                <button type="button" aria-label="Read more" class="section-about__btn" >
+                    Read more
+                    <svg width="10" height="10"  class="section-about__btn-svg">
+                        <use href="./images/symbol-defs.svg#Vector"></use>                   
+                    </svg>
+                </button>
+            </div> 
+        </div>   
     </div>
 </section>
