@@ -208,7 +208,6 @@
   display: block;
   background-repeat: no-repeat;
   margin-bottom: 16px;
-}
 
 .section-about__first {
   background-image: url('../images/aboveMilk.png');
@@ -219,6 +218,7 @@
 .section-about__third {
   background-image: url('../images/aboveSweet.png');
 }
+
 .section-about__itemNumber {
   margin: 0px;
   padding: 0px;
@@ -257,12 +257,13 @@
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #000000;
-  @media screen and (min-width: 768px) {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  @media screen and (min-width: 1200px) {
-    font-size: 16px;
-    line-height: 28px;
-  }
-}
+
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 28px;
+    }
+}}
