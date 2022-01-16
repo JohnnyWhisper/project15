@@ -3,4 +3,263 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+.section-about {
+  padding-top: 125px;
+  padding-bottom: 97px;
+  background-color: #fff5f6;
+  background-image: url("../images/how-its-made-mob-1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 57%;
+  background-size: 100%;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section-about {
+    background-image: url("../images/how-its-made-mob-2x.png");
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-about {
+    background-image: none;
+    padding-top: 130px;
+    padding-bottom: 140px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-about {
+    background-image: url("../images/how-its-made-desk-1x.png");
+    padding-top: 125px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .section-about {
+    background-image: url("../images/how-its-made-desk-2x.png");
+  }
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.section-about__prehederText {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  font-family: Titan One;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffa5ba;
+}
+
+.section-about__hederText {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 26px;
+  font-family: Titan One;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+
+.section-about__image {
+  display: block;
+  width: 100%;
+  margin-bottom: 46px;
+}
+
+.wrapper-text {
+  margin: 0px 40px;
+}
+
+.section-about__afterhederText {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 47px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+}
+
+.section-about__afterhederText2 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 27px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #907e82;
+}
+
+.section-about__afterhederText3 {
+  margin-bottom: 37px;
+}
+
+.section-about__btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 22px;
+  padding: 17px 36px;
+  background-color: #ffffff;
+  color: #d41443;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-about__btn-svg {
+  fill: #d41443;
+  margin-left: 15px;
+}
+
+.section-about__list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 39px;
+}
+
+.section-about__item:not(:last-child) {
+  margin-bottom: 38px;
+}
+
+.section-about__itemNumber-img1::before {
+  content: ' ';
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-image: url("../images/aboveMilk.png");
+  background-repeat: no-repeat;
+}
+
+.section-about__itemNumber {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 19px;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+
+.section-about__itemText {
+  margin: 0px;
+  padding: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
+  color: #000000;
+}
+
+.reviews-section__photo {
+  margin-bottom: 29px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .reviews-section__photo {
+    margin-bottom: 19px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-section__photo {
+    margin-bottom: 15px;
+  }
+}
+
+.review-text-container {
+  background-color: #FAFAFA;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .review-text-container {
+    padding-top: 30px;
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .review-text-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.reviews-section__review-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.58;
+  text-align: center;
+}
+
+.reviews-section__clients-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+}
+
+.reviews-section__clients-name::before {
+  content: "";
+  height: 4px;
+  width: 4px;
+  background-color: #C7133E;
+  border-radius: 50%;
+  position: absolute;
+  margin-bottom: 18px;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
