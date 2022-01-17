@@ -13,12 +13,19 @@ background-repeat: no-repeat;
 }
 
     @media screen and (min-width:1280px) {
-        background-image:url(../images/contacts/contacts-2x.png),
+        background-image:url(../images/contacts/contacts-1x.png),
         linear-gradient(to bottom,#ffffff 13%,#fff5f6 10%);
 background-size: 100%;
 background-repeat: no-repeat;
     }
-}
+
+@media screen and (min-width:1280px){
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  & {
+    background-image: url(../images/contacts/contacts-2x.png);
+  }}}}
 
 
 .contacts__list{
@@ -62,7 +69,7 @@ background-repeat: no-repeat;
 
     }
     @media screen and (min-width:1280px) {
-        padding: 52px 44px 62px 43px;
+        padding: 52px 43px 62px 43px;
     }
 }
 
@@ -255,8 +262,14 @@ border: none;
 margin-right: 15px;
 @media screen and (max-width:771px) {
     margin-bottom: 10px;
+}}
+.button-red:hover,
+.button-red:focus{
+    background-color: white;
+    color: #D41342;
 }
-}
+
+
 
 .button{
 font-family: DM Sans;
@@ -273,6 +286,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: none;
+}
+
+.button:hover,
+.button:focus{
+    background-color: #D41342;
+    color: white;
 }
 
 .button__icon{
