@@ -8,7 +8,7 @@
     background-image:linear-gradient(to bottom,#ffffff 13%,#fff5f6 10%);
 background-size: 100%;
 background-repeat: no-repeat;
-@media screen and(max-width:771px) {
+@media screen and(max-width:767px) {
     background-image: linear-gradient(to bottom, #ffffff 5%, #fff5f6 5%);
 }
 
@@ -29,7 +29,7 @@ background-repeat: no-repeat;
 
 
 .contacts__list{
-    @media screen and (min-width:772px) {
+    @media screen and (min-width:768px) {
         display: flex;
     }
     
@@ -45,7 +45,7 @@ background-repeat: no-repeat;
     &:last-child{
         margin-right: 0px;
     }
-@media screen and(max-width:771px) {
+@media screen and(max-width:767px) {
     margin-right: 0px;
     margin-bottom: 20px;
     &:last-child{
@@ -60,7 +60,7 @@ background-repeat: no-repeat;
 }
 
 .contacts__column{
-    @media screen and (max-width:771px) {
+    @media screen and (max-width:767px) {
         padding: 43px 21px 43px 20px;
         padding-left: 20px;
     }
@@ -103,10 +103,10 @@ line-height: 186%;
 letter-spacing: 0.04em;
 color: #000000;
 margin-top: 32px;
-@media screen and (min-width:772px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     font-size: 14px;
  }
- @media screen and (max-width:771px) {
+ @media screen and (max-width:767px) {
      font-size: 12px;
  }
 }
@@ -125,19 +125,19 @@ color: #907E82;
     border-bottom: solid 1px #E1E1E1;
     margin-top: 32px;
     margin-bottom: 32px;
-    @media screen and (min-width:772px) and (max-width:1279px) {
+    @media screen and (min-width:768px) and (max-width:1279px) {
         margin-top: 30px;
     margin-bottom: 30x;
      }
-     @media screen and (max-width:771px) {
+     @media screen and (max-width:767px) {
         margin-top: 25px;
         margin-bottom: 25px;
      }
 }
-@media screen and (min-width:772px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     font-size: 14px;
  }
- @media screen and (max-width:771px) {
+ @media screen and (max-width:767px) {
      font-size: 12px;
  }
 }
@@ -158,10 +158,10 @@ font-size: 16px;
 line-height: 186%;
 letter-spacing: 0.04em;
 color: #000000;
-@media screen and (min-width:772px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     font-size: 14px;
  }
- @media screen and (max-width:771px) {
+ @media screen and (max-width:767px) {
      font-size: 12px;
  }
 }
@@ -173,10 +173,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 186%;
 color: #FFA5BA;
-@media screen and (min-width:772px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     font-size: 14px;
  }
- @media screen and (max-width:771px) {
+ @media screen and (max-width:767px) {
      font-size: 12px;
  }
 }
@@ -193,10 +193,10 @@ font-size: 16px;
 line-height: 183%;
 color: #907E82;
 text-decoration: none;
-@media screen and (min-width:772px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     font-size: 14px;
  }
- @media screen and (max-width:771px) {
+ @media screen and (max-width:767px) {
      font-size: 12px;
  }
 }
@@ -209,23 +209,23 @@ font-size: 16px;
 line-height: 183%;
 color: #907E82;
 text-decoration: none;
-@media screen and (min-width:772px) and (max-width:1279px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     font-size: 14px;
  }
- @media screen and (max-width:771px) {
+ @media screen and (max-width:767px) {
      font-size: 12px;
  }
 }
 
 .button__list{
     justify-content: center;
-    @media screen and (max-width:771px) {
+    @media screen and (max-width:767px) {
         margin-top: 54px;
     }
-    @media screen and (min-width:772px) {
+    @media screen and (min-width:768px) {
         display: flex;
     }
-    @media screen and (min-width:772px) and (max-width:1279px) {
+    @media screen and (min-width:768px) and (max-width:1279px) {
         margin-top: 81px;
 
     }
@@ -260,9 +260,10 @@ justify-content: center;
 align-items: center;
 border: none;
 margin-right: 15px;
-@media screen and (max-width:771px) {
+@media screen and (max-width:767px) {
     margin-bottom: 10px;
 }}
+
 .button-red:hover,
 .button-red:focus{
     background-color: white;
