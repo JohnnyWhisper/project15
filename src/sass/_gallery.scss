@@ -4,7 +4,6 @@
     max-width: 320px;
     padding-left: 0;
     margin: 0;
-    overflow:hidden;
     background-image:linear-gradient(
     to bottom,
     #FFF5F6 35%, #fff);
@@ -32,16 +31,16 @@
     overflow: hidden;
 
     @media screen and (min-width:480px) {
-        max-width: 364px;
+        // max-width: 364px;
      
       }
         @media screen and (min-width:768px) {
-      max-width:768px;
+    //   max-width:768px;
 
       }
   
          @media screen and (min-width:1200px) {
-        max-width: 1200px;
+        // max-width: 1200px;
      
       }
 }
