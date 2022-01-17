@@ -1,28 +1,38 @@
 .container-gallery {
+    display: flex;
+    justify-content: center;
     max-width: 320px;
-    padding-left: 0;
-    margin: 0 auto;
-    overflow:hidden;
+    padding: 0;
+    margin: 0;
+    width:100%;
+
     background-image:linear-gradient(
     to bottom,
-    #FFF5F6 35%, #fff);
+    #FFF5F6 20%, #fff 100%);
 
     background-size: 100%;
     background-repeat: no-repeat;
-    
     @media screen and (min-width:480px) {
         max-width: 480px;
      
       }
         @media screen and (min-width:768px) {
-        max-width: 768px; 
+      max-width:768px;
+
       }
-  
-         @media screen and (min-width:1200px) {
+
+      @media screen and (min-width:1200px) {
         max-width: 1200px;
      
       }
+  
+         @media screen and (min-width:1280px) {
+        max-width: 1280px;
+     
+      }
 }
+  
+
 
 .gallery-set {
     display:block;
@@ -30,16 +40,19 @@
     overflow: hidden;
 
     @media screen and (min-width:480px) {
-        max-width: 364px;
+        max-width: 480px;
      
       }
         @media screen and (min-width:768px) {
       max-width:768px;
 
       }
-  
-         @media screen and (min-width:1200px) {
+      @media screen and (min-width:1200px) {
         max-width: 1200px;
+     
+      }
+         @media screen and (min-width:1280px) {
+        max-width: 1280px;
      
       }
 }
