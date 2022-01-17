@@ -47,28 +47,28 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 161px;
-    // padding-bottom: 111px;
 
     @media screen and (min-width: 768px) {
         width: 220px;
-        // height: 485px;
         padding-top: 152px;
-        padding-left: 11px;
-        padding-right: 11px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    @media screen and (min-width: 1280px) {
-        width: 329px;
-        height: 525px;
-        padding-left: 44px;
-        padding-right: 44px;
-        padding-top: 163px;
-    }
+    
 }
 
 .first-box {
     position: relative;
     background: #FFB8CA;
+
+    @media screen and (min-width: 1280px) {
+        width: 329px;
+        height: 525px;
+        padding-left: 64.5px;
+        padding-right: 64.5px;
+        padding-top: 163px;
+    }
 
     &::before {
         content: "";
@@ -124,6 +124,14 @@
     position: relative;
     background: #F0D1A5;
 
+    @media screen and (min-width: 1280px) {
+        width: 329px;
+        height: 525px;
+        padding-left: 64.5px;
+        padding-right: 64.5px;
+        padding-top: 163px;
+    }
+
     &::before {
         content: "";
         position: absolute;
@@ -175,6 +183,14 @@
     position: relative;
     background: #C2E297;
 
+    @media screen and (min-width: 1280px) {
+        width: 329px;
+        height: 525px;
+        padding-left: 63.7px;
+        padding-right: 63.7px;
+        padding-top: 163px;
+    }
+
     &::before {
         content: "";
         position: absolute;
@@ -222,10 +238,6 @@
     }
 }
 
-// .products__slider {
-//     display: block;
-//     text-align: center;
-// }
 
 .products__label {
     font-family: Titan One;
@@ -264,6 +276,7 @@
 
     @media screen and (min-width: 1280px) {
         margin-bottom: 259px;
+        letter-spacing: 0.04em;
     }
 }
 
@@ -282,6 +295,7 @@
     @media screen and (min-width: 1280px) {
         font-size: 30px;
         line-height: 1.13;
+        letter-spacing: 0.02em;
     }
 
     &::after {
@@ -301,17 +315,27 @@
 }
 
 .products__slider {
-    width: 200px;
+    min-width: 200px;
     height: 124px;
+    overflow: hidden;
 
-    @media screen and (min-width: 768px) {
-        width: 198px;
-    }  
+    // @media screen and (min-width: 768px) {
+    //     width: 198px;
+    // }  
     
-    @media screen and (min-width: 1280px) {
-        width: 241px;
-        height: 106px;
-    }    
+    // @media screen and (min-width: 1280px) {
+    //     width: 241px;
+    //     height: 106px;
+    // }    
+}
+
+.slider-line {
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 124px;
+    left: 0;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products__text {
@@ -319,20 +343,20 @@
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 152%;
+    line-height: 1.45;
     text-align: center;
     letter-spacing: 0.04em;
     color: #ffffff;
 
-    @media screen and (min-width: 768px) {
-        line-height: 176%;
-        text-align: center;
-    }
+    // @media screen and (min-width: 768px) {
+    //     line-height: 176%;
+    //     text-align: center;
+    // }
     
-    @media screen and (min-width: 1280px) {
-        font-size: 16px;
-        line-height: 176%;
-    } 
+    // @media screen and (min-width: 1280px) {
+    //     font-size: 16px;
+    //     line-height: 176%;
+    // } 
 }
 
 .products__button {
@@ -355,7 +379,7 @@
     }
     
     @media screen and (min-width: 1280px) {
-        margin-top: 62px;
+        margin-top: 44px;
     }
 }
 
@@ -364,31 +388,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-
-// .products__overlay {
-//     position: absolute;
-//     display: flex;
-//     align-items: center;
-//     overflow-x: scroll;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-//     font-family: DM Sans;
-//     font-style: normal;
-//     font-weight: bold;
-//     font-size: 14px;
-//     line-height: 152%;
-//     text-align: center;
-//     letter-spacing: 0.04em;
-//     color: #FFB8CA;
-//     background-color: #ffffff;
-
-//     transform: translateX(101%);
-//     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-//     .products__button:active &,
-//     .products__button:hover & {
-//         transform: translateX(0);
-//     }
-// }
