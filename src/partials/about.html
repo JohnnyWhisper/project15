@@ -46,21 +46,5 @@
             <p class="modal-above__text modal-above__text--color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, voluptatem aperiam? Quidem quo veniam inventore blanditiis hic enim dignissimos provident debitis. Nobis fugit eius perspiciatis distinctio, ad asperiores similique vero.</p>
             <button type="button" class="modal-above__btn section-about__btn" aria-label="close info" data-modal-close>close</button>
         </div>
-    </div>
-    <script>
-        (() => {
-                const refs = {
-                    openModalBtn: document.querySelector('[data-modal-open]'),
-                    closeModalBtn: document.querySelector('[data-modal-close]'),
-                    modal: document.querySelector('[data-backdrop]'),
-                };
-
-                refs.openModalBtn.addEventListener('click', toggleModal);
-                refs.closeModalBtn.addEventListener('click', toggleModal);
-
-                function toggleModal() {
-                    refs.modal.classList.toggle('is-hidden');
-                }
-            })();
-    </script>
+    </div>   
 </section>
