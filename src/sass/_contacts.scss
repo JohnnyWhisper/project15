@@ -264,14 +264,6 @@ margin-right: 15px;
     margin-bottom: 10px;
 }}
 
-.button-red:hover,
-.button-red:focus{
-    background-color: white;
-    color: #D41342;
-}
-
-
-
 .button{
 font-family: DM Sans;
 font-style: normal;
@@ -291,46 +283,47 @@ border: none;
 
 .button:hover,
 .button:focus{
-    background-color: #D41342;
-    color: white;
+    background-color: 
+    #ECEBEB;
+    color: #D41342;
 }
 
 .button__icon{
     margin-left: 13px;
 }
 
-// .contact__modal {
-//     position: fixed;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     z-index: 1000;
-//     background: rgba(0, 0, 0, 0.9);
-//     display: flex;
-//     justify-content: center;
-//     align-items: flex-start;
-//     overflow-y: scroll;
-//     padding: 60px 15px;
-//   }
-//   .modal__content {
-//     width: 100%;
-//     max-width: 500px;
-//     padding: 50px;
-//     background: #f9f9f9;
-//     border-radius: 3px;
-//     position: relative;
-//     box-shadow: 0 5px 15px black;
-//   }
-//   .modal__button-close{
-//     border: none;
-//     position: absolute;
-//     right: 0;
-//     top: 0;
-//     background: none;
-//     outline: none;
-//   }
-//   .modal__button-close:hover {
-//     transition: .3s;
-//     transform: rotate(180deg);
-//   }
+.contact__modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    padding: 60px 15px;
+  }
+  .modal__content {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 5px 15px black;
+  }
+  .modal__button-close{
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    outline: none;
+  }
+  .modal__button-close:hover {
+    transition: .3s;
+    transform: rotate(180deg);
+  }
