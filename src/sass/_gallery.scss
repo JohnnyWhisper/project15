@@ -1,50 +1,45 @@
+.container-gallery {
+    max-width: 320px;
+    padding-left: 0;
+    margin: 0 auto;
+    overflow:hidden;
+    background-image:linear-gradient(
+    to bottom,
+    #FFF5F6 35%, #fff);
 
-.gallery {
-    padding:0;
-    background-image: 
-    linear-gradient( 
-        #FFF5F6 35%, 
-        #FFFFFF 
-    ),
-}
-.gallery-set {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    background-image:     
-    url(../images/gallery/gallery-set-mob.jpg);
-
-        @media (min-device-pixel-ratio: 2),
-              (min-resolution: 192dpi),
-              (min-resolution: 2dppx) {
-              background-image: 
-             url(../images/gallery/gallery-set-mob2x.jpg);
-           }
-
-
-  @media screen and (min-width:768px) {
-    background-image: 
-    url(../images/gallery/gallery-set-tablet.jpg);
-
-        @media (min-device-pixel-ratio: 2),
-               (min-resolution: 192dpi),
-               (min-resolution: 2dppx) {
-               background-image: 
-                url(../images/gallery/gallery-set-tablet2x.jpg);
-        }
-  }
-
-  @media screen and (min-width:1200px) {
+    background-size: 100%;
+    background-repeat: no-repeat;
     
-    background-image: 
-    url(../images/gallery/gallery-set-desktop.jpg);
+    @media screen and (min-width:480px) {
+        max-width: 480px;
+     
+      }
+        @media screen and (min-width:768px) {
+        max-width: 768px; 
+      }
+  
+         @media screen and (min-width:1200px) {
+        max-width: 1200px;
+     
+      }
+}
 
-      @media (min-device-pixel-ratio: 2),
-             (min-resolution: 192dpi),
-             (min-resolution: 2dppx) {
-             background-image: 
-            url(../images/gallery/gallery-set-desktop2x.jpg);
+.gallery-set {
+    display:block;
+    width:100%;
+    overflow: hidden;
 
-        }
-    }
+    @media screen and (min-width:480px) {
+        max-width: 364px;
+     
+      }
+        @media screen and (min-width:768px) {
+      max-width:768px;
+
+      }
+  
+         @media screen and (min-width:1200px) {
+        max-width: 1200px;
+     
+      }
 }

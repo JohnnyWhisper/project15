@@ -1,6 +1,23 @@
-<div class="container gallery">
-    <h2></h2>
-    <div class="gallery-set">
-        
-    </div>
-</div>
+<div class="container container-gallery">
+        <div class="gallery-set">
+            <picture>
+                <source
+                scrset="./images/gallery-desk.png 1x,
+                        ./images/gallery-desk2x.png 2x"
+                media="(min-width:1200px)"
+                >
+                <source
+                scrset="./images/gallery-tab.png 1x,
+                        ./images/gallery-tab2x.png 2x"
+                media="(min-width:768px)"
+                >
+                <source
+                scrset="./images/gallery-mob.png 1x,
+                        ./images/gallery-mob2x.png 2x"
+                media="(min-width:320px)"
+                >
+                <img class="gallery__img" 
+                src="./images/gallery-desk.png" 
+                alt="gallery">
+              </picture>
+        </div>
