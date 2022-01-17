@@ -2,12 +2,12 @@
   padding-top: 125px;
   padding-bottom: 39px;
   background-color: #fff5f6;
-  background-image: url('../images/how-its-made-mob-1x.png');
+  background-image: url('../images/about/how-its-made-mob-1x.png');
   background-repeat: no-repeat;
   background-position: 50% 57%;
   background-size: 100%;
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url('../images/how-its-made-mob-2x.png');
+    background-image: url('../images/about/how-its-made-mob-2x.png');
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     background-image: none;
@@ -15,10 +15,10 @@
     padding-bottom: 66px;
   }
   @media screen and (min-width: 1200px) {
-    background-image: url('../images/how-its-made-desk-1x.png');
+    background-image: url('../images/about/how-its-made-desk-1x.png');
     padding-top: 125px;
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url('../images/how-its-made-desk-2x.png');
+      background-image: url('../images/about/how-its-made-desk-2x.png');
     }
   }
 }
@@ -228,6 +228,7 @@
     transform: translate(-50%, -50%) scale(1.2);
   }
 }
+
 .modal-above__heder {
   font-family: Titan One;
   font-weight: 400;
@@ -273,4 +274,17 @@
   padding: 15px 30px;
   width: 100px;
   height: 44px;
+}
+// scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eb97aa;
+  border-radius: 24px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #b82046;
+  border-radius: 8px;
+  border: 2px solid #eb97aa;
 }
