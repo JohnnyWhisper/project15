@@ -1,12 +1,16 @@
 
 .container__contacts{
-    background-color: #fff5f6;
+    // background-color: #fff5f6;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 132px;
     padding-bottom: 165px;
-    
+    background-image: linear-gradient(
+  to bottom,
+  #ffffff 13%,
+  #fff5f6 10%
+);
 }
 
 .contacts__list{
@@ -44,6 +48,7 @@ justify-content: center;
 
 .contacts__title-green{
     background: #C2E297;
+    width: 138px;
 }
 
 .contacts__pre-title{
@@ -153,6 +158,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: none;
+margin-right: 15px;
 }
 
 .button{
@@ -170,4 +176,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: none;
+}
+
+.button__icon{
+    margin-left: 13px;
 }

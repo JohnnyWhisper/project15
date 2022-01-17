@@ -1,20 +1,50 @@
 
 .gallery {
     padding:0;
+    background-image: 
+    linear-gradient( 
+        #FFF5F6 35%, 
+        #FFFFFF 
+    ),
 }
 .gallery-set {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-image:     
+    url(../images/gallery/gallery-set-mob.jpg);
 
-    width: 364px;
+        @media (min-device-pixel-ratio: 2),
+              (min-resolution: 192dpi),
+              (min-resolution: 2dppx) {
+              background-image: 
+             url(../images/gallery/gallery-set-mob2x.jpg);
+           }
 
-    @media screen and (min-width: 480px) {
-    width: 364px;
-    }
 
-    @media screen and (min-width: 768px) {
-    width:768px;
-    }
+  @media screen and (min-width:768px) {
+    background-image: 
+    url(../images/gallery/gallery-set-tablet.jpg);
 
-    @media screen and (min-width: 1200px) {
-     width:1200px;
+        @media (min-device-pixel-ratio: 2),
+               (min-resolution: 192dpi),
+               (min-resolution: 2dppx) {
+               background-image: 
+                url(../images/gallery/gallery-set-tablet2x.jpg);
+        }
+  }
+
+  @media screen and (min-width:1200px) {
+    
+    background-image: 
+    url(../images/gallery/gallery-set-desktop.jpg);
+
+      @media (min-device-pixel-ratio: 2),
+             (min-resolution: 192dpi),
+             (min-resolution: 2dppx) {
+             background-image: 
+            url(../images/gallery/gallery-set-desktop2x.jpg);
+
+        }
     }
 }
