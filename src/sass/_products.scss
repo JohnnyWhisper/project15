@@ -127,8 +127,8 @@
     @media screen and (min-width: 1280px) {
         width: 329px;
         height: 525px;
-        padding-left: 64.5px;
-        padding-right: 64.5px;
+        padding-left: 64px;
+        padding-right: 64px;
         padding-top: 163px;
     }
 
@@ -315,7 +315,7 @@
 }
 
 .products__slider {
-    min-width: 200px;
+    width: 200px;
     height: 124px;
     overflow: hidden;
 
@@ -339,6 +339,7 @@
 }
 
 .products__text {
+    width: 100%;
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
