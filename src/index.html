@@ -49,6 +49,12 @@
 
     <!-- Initialize Swiper -->
     <script src="./js/swiper.js"></script>
+
+    <!-- Product Slider -->
+    <script src="js/product-slider.js"></script>
+    <script src="js/product-slider2.js"></script>
+    <script src="js/product-slider3.js"></script>
+    
     <script>
       (() => {
         const refs = {
@@ -65,5 +71,23 @@
         }
       })();
     </script>
+    <script>
+      (() => {
+        const refs = {
+          openModalBtn: document.querySelector('[data-modal-contacts-open]'),
+          closeModalBtn: document.querySelector('[data-modal-contacts-close]'),
+          modal: document.querySelector('[data-contacts-backdrop]'),
+        };
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
+        function toggleModal() {
+          refs.modal.classList.toggle('is-hidden');
+        }
+      })();
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
