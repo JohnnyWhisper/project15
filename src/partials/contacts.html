@@ -61,7 +61,7 @@
             </li>
             </ul>
     <ul class="button__list">
-        <li class="button__item-red" [data-modal-open]>
+        <li class="button__item-red" data-modal-contacts-open>
             <button  class="button-red" type="button">Our Locations<svg class="button__icon" width="10" height="10" > 
                 <use  href="/images/symbol-defs.svg#VectorWhite"></use> 
         </svg></button>
@@ -73,9 +73,9 @@
         </li>
     </ul>
 </div>
-<div class="contact__modal is-hidden" [data-modal-open]>
-    <div class="modal__content" [data-backdrop]>
-        <button class="modal__button-close" [data-modal-close]>
+<div class="contact__modal is-hidden" data-contacts-backdrop>
+    <div class="modal__content" >
+        <button class="modal__button-close" data-modal-contacts-close>
             <svg class="modal__button-icon" width="15" height="15">
                 <use href="/images/symbol-defs.svg#closemodal"></use></svg></button>
       <h1 class="modal__title"></h1>
