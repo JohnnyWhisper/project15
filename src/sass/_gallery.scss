@@ -1,15 +1,5 @@
 .container-gallery {
-  display: flex;
-  justify-content: center;
   min-width: 320px;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-
-  background-image: linear-gradient(to bottom, #fff5f6 20%, #fff 100%);
-
-  background-size: 100%;
-  background-repeat: no-repeat;
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
@@ -25,62 +15,12 @@
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
   }
-    display: flex;
-    justify-content: center;
-    min-width: 320px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-   
-    background-image: linear-gradient(
-        to bottom,
-        #FFF5F6 48px,
-        #fff 74px,  
-      );
-    
-    background-size: 100%;
-    background-repeat: no-repeat;
-
-    @media screen and (min-width:480px) {
-        max-width: 480px;
-       
-     
-      }
-        @media screen and (min-width:768px) {
-      max-width:768px;
-      background-image: linear-gradient(
-        to bottom,
-        #FFF5F6 104px,
-        #fff 160px,  
-      );
-      }
-
-      @media screen and (min-width:1200px) {
-        max-width: 1200px;
-
-        background-image: linear-gradient(
-            to bottom,
-            #FFF5F6 170px,
-            #fff 260px,  
-          );
-     
-      }
-  
-         @media screen and (min-width:1280px) {
-        max-width: 1280px;
-       
-     
-      }
 }
+
 .container__section-gallery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 132px;
   padding-bottom: 165px;
   background-image: linear-gradient(to bottom, #fff5f6 42.8%, #ffffff 10%);
-  background-size: 100%;
-  background-repeat: no-repeat;
 
   @media screen and(min-width:768px) {
     background-image: linear-gradient(to bottom, #fff5f6 42.1%, #ffffff 10%);
@@ -88,26 +28,5 @@
 
   @media screen and (min-width: 1280px) {
     background-image: linear-gradient(to bottom, #fff5f6 41.76%, #ffffff 10%);
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-}
-
-.gallery-set {
-  display: block;
-  width: 100%;
-  overflow: hidden;
-
-  @media screen and (min-width: 480px) {
-    // max-width: 480px;
-  }
-  @media screen and (min-width: 768px) {
-    //   max-width:768px;
-  }
-  @media screen and (min-width: 1200px) {
-    // max-width: 1200px;
-  }
-  @media screen and (min-width: 1280px) {
-    // max-width: 1280px;
   }
 }
