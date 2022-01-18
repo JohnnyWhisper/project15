@@ -183,21 +183,7 @@ img {
     color: #d41443;
   }
 }
-// -----------------MOB-MENU-----------------------
-.mob-menu {
-  position: fixed;
-  background-color: #e17992;
-  top: 0;
-  right: 0;
-  width: 250px;
-  // width: 100vw;
-  height: 100vh;
-  z-index: 999;
-  // padding-top: 10px;
-  @media screen and(min-width: 1280px) {
-    display: none;
-  }
-}
+
 // --------------------MODAL-BTN----------------------
 .header__modal-btn-position {
   @media screen and(max-width: 767px) {
@@ -635,5 +621,90 @@ img {
     width: 74px;
     height: 18px;
     right: 18px;
+  }
+}
+// -----------------MOB-MENU-----------------------
+.mob-menu {
+  position: fixed;
+  background-color: #e17992;
+  top: 0;
+  right: 0;
+  width: 250px;
+  // width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  // padding-top: 10px;
+  @media screen and(min-width: 1280px) {
+    display: none;
+  }
+}
+.mob-menu-close-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  position: absolute;
+  top: 23px;
+  right: 28px;
+}
+// ----------mob-menu-modal-btn------
+.mob-menu-modal-btn-position {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mob-menu-modal-btn {
+  padding: 0;
+  border: none;
+  background-color: #fff;
+  width: 209px;
+  height: 44px;
+  border-radius: 25px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d41443;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover {
+    background-color: #ecebeb;
+  }
+}
+.mob-menu-modal-btn-svg {
+  margin-left: 25px;
+}
+// ----------MOB-MENU-NAV--------
+.mob-menu-header__navigation {
+  height: 210px;
+  width: 100%;
+  position: absolute;
+  top: 123px;
+}
+.mob-menu-nav-list__link {
+  box-sizing: border-box;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  height: 42px;
+  padding-left: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border: 1px solid #e18298;
+  &:hover {
+    color: #d41443;
   }
 }
