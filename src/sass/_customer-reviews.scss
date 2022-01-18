@@ -59,6 +59,7 @@
 }
 
 .review-text-container {
+<<<<<<< Updated upstream
     background-color: #FAFAFA;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -70,6 +71,23 @@
         padding-top: 32px;
         padding-bottom: 32px;
     }
+=======
+  width: 280px;
+  margin-bottom: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 43px 66px 26px 57px;
+  position: relative;
+  background-color: #fafafa;
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    width: 620px;
+    padding: 47px 80px 34px 80px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 926px;
+    padding: 47px 89px 39px 87px;
+  }
+>>>>>>> Stashed changes
 }
 
 .reviews-section__review-text {
