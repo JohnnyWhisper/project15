@@ -24,7 +24,8 @@ background-repeat: no-repeat;
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   & {
-    background-image: url(../images/contacts/contacts-2x.png);
+    background-image: url(../images/contacts/contacts-2x.png),
+    linear-gradient(to bottom,#ffffff 13%,#fff5f6 10%);;
   }}}}
 
 
