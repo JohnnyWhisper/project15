@@ -9,12 +9,12 @@
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url('../images/about/how-its-made-mob-2x.png');
   }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     background-image: none;
     padding-top: 130px;
     padding-bottom: 66px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     background-image: url('../images/about/how-its-made-desk-1x.png');
     padding-top: 125px;
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -54,7 +54,7 @@
     font-size: 26px;
     line-height: 1.15em;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 30px;
     line-height: 1.13em;
   }
@@ -73,7 +73,7 @@
     margin-bottom: 50px;
     font-size: 48px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 55px;
     font-size: 58px;
     line-height: 1.138em;
@@ -90,18 +90,19 @@
   @media screen and (min-width: 768px) {
     min-width: 340px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     min-width: 516px;
   }
 }
 .wrapper-text {
   margin: 0px 40px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     margin-left: 17px;
     margin-right: 0px;
     align-self: flex-end;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
+    width: 463px;
     margin-left: 74px;
     align-self: flex-start;
     padding-top: 47px;
@@ -118,7 +119,7 @@
     font-size: 14px;
     line-height: 1.78em;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 35px;
     font-size: 16px;
     line-height: 1.75em;
@@ -138,7 +139,7 @@
     font-size: 14px;
     line-height: 1.78em;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     line-height: 1.92em;
   }
 }
@@ -147,7 +148,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 62px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 45px;
   }
 }
@@ -243,7 +244,7 @@
     margin-bottom: 40px;
     font-size: 48px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 50px;
   }
 }
@@ -262,7 +263,7 @@
     font-size: 14px;
     line-height: 1.78em;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     line-height: 1.92em;
   }
 }
