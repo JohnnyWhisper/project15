@@ -55,7 +55,7 @@
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
-  font-size: 58px;
+  font-size: 36px;
   line-height: 1.13;
   text-align: left;
   letter-spacing: 0.04em;
@@ -67,10 +67,12 @@
   @media screen and (min-width: 768px) {
     margin-top: 124px;
     margin-bottom: 13px;
+    font-size: 48px;
   }
   @media screen and (min-width: 1280px) {
     margin-top: 130px;
     margin-bottom: 15px;
+    font-size: 58px;
   }
 }
 .advantages__item-title--first::before {
@@ -80,7 +82,10 @@
   content: url('../images/advantages/icon1.png');
   width: 33px;
   height: 50px;
-  bottom: 66px;
+  bottom: 40px;
+  @media screen and (min-width: 768px) {
+    bottom: 66px;
+  }
 }
 .advantages__item-title--second::before {
   position: absolute;
@@ -88,23 +93,38 @@
   content: url('../images/advantages/icon2.png');
   width: 50px;
   height: 50px;
-  bottom: 66px;
+  bottom: 40px;
+  @media screen and (min-width: 768px) {
+    bottom: 66px;
+  }
 }
+
 .advantages__item-title--third::before {
   position: absolute;
   margin-bottom: 16px;
   content: url('../images/advantages/icon3.png');
   width: 44px;
   height: 50px;
-  bottom: 66px;
+  bottom: 40px;
+  @media screen and (min-width: 768px) {
+    bottom: 66px;
+  }
 }
 
 .advantages__text {
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 1.76;
+  font-size: 12px;
+  line-height: 1.7;
   letter-spacing: 0.02em;
   color: #000000;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.74;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.76;
+  }
 }
