@@ -23,6 +23,17 @@
   align-items: center;
 }
 
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
 .swiper-pagination-bullet-active {
   background-image: url(../images/customer-reviews/home-1.svg);
   background-color: transparent;
@@ -34,7 +45,7 @@
 
 .reviews-section {
   padding-top: 80px;
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen and (min-width: 768px) {
     padding-top: 121px;
   }
   @media screen and (min-width: 1280px) {
@@ -49,7 +60,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 19px;
   }
   @media screen and (min-width: 1280px) {
@@ -58,48 +69,45 @@
 }
 
 .review-text-container {
-    background-color: #FAFAFA;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    @media screen and (min-width: 768px) and (max-width: 1279px) {
-        padding-top: 30px;
-        padding-bottom: 28px;
-    }
-    @media screen and (min-width: 1280px) {
-        padding-top: 32px;
-        padding-bottom: 32px;
-    }
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 28px;
+    width: 620px;
+    padding: 47px 80px 34px 80px;
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 926px;
+    padding: 47px 89px 39px 87px;
+    margin-bottom: 15px;
+  }
+
   width: 280px;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   padding: 43px 66px 26px 57px;
   z-index: 3;
   position: relative;
   background-color: #fafafa;
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
-    width: 620px;
-    padding: 47px 80px 34px 80px;
-  }
-  @media screen and (min-width: 1280px) {
-    width: 926px;
-    padding: 47px 89px 39px 87px;
-  }
 }
 
 .reviews-section__review-text {
   position: relative;
   font-family: DM Sans, sans-serif;
   text-align: center;
-  // margin-left: auto;
-  // margin-right: auto;
   font-weight: 500;
   font-size: 12px;
   line-height: 2.58;
   z-index: 2;
   letter-spacing: 0.04em;
-  // text-align: center;
-  // width: 180px;
   background-image: repeating-linear-gradient(
     rgb(225, 225, 225) 24px,
     rgb(225, 225, 225) 25px,
@@ -138,45 +146,33 @@
 }
 
 .reviews-section__clients-name {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   font-family: DM Sans, sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 2.58;
   text-align: center;
   justify-content: center;
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+  @media screen and (min-width: 768px) {
     font-size: 16px;
     line-height: 1.88;
+    margin-bottom: 35px;
   }
   @media screen and (min-width: 1280px) {
     font-size: 20px;
     line-height: 1.85;
   }
-}
-
-.swiper-slide__elipsis-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 18px;
-  margin-top: 30px;
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
-    margin-bottom: 24px;
-    margin-top: 14px;
-  }
-  @media screen and (min-width: 1280px) {
-    margin-bottom: 15px;
-    margin-top: 15px;
+  &::before {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 14px;
+    width: 32px;
+    height: 4px;
+    background-image: url('../images/customer-reviews/red-dots.png');
   }
 }
 
-.elipsis-list__container {
-  height: 4px;
-  width: 4px;
-  border-radius: 50%;
-  background-color: #c7133e;
-}
 
 .elipsis-list__item:not(:last-child) {
   margin-right: 10px;
