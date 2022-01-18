@@ -42,7 +42,7 @@ img {
   @media screen and(min-width: 768px) {
     height: 399px;
   }
-  @media screen and(min-width: 1200px) {
+  @media screen and(min-width: 1280px) {
     height: 665px;
   }
   background-color: #ffb8ca;
@@ -69,6 +69,9 @@ img {
     padding-left: 34px;
     padding-right: 34px;
   }
+  @media screen and(min-width: 1280px) {
+    padding: 0;
+  }
 }
 // ------------------------------------------HEADER---------------------------------------
 .header {
@@ -89,7 +92,12 @@ img {
   top: 0;
   z-index: 3;
   width: 100%;
+  @media screen and(min-width: 1280px) {
+    padding-left: 46px;
+    padding-right: 115px;
+  }
 }
+// -----------HEADER-LOGO-------------------
 .header__logo-icon {
   width: 50px;
   height: 50px;
@@ -123,11 +131,15 @@ img {
   text-transform: uppercase;
   color: #d41443;
 }
-.heder-open-menu-btn-position {
+// ----------HEADER-OPEN-MENU-BTN-------------------
+.header-open-menu-btn-position {
   margin-left: auto;
   @media screen and(min-width: 768px) {
     margin-left: 291px;
     padding-top: 15px;
+  }
+  @media screen and(min-width: 1280px) {
+    display: none;
   }
 }
 
@@ -138,12 +150,56 @@ img {
   border: none;
   width: 20px;
   height: 12px;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
-// ---MODAL-BTN---------
+// ------------------HEADER-NAV-MENU-------------------
+.header__navigation {
+  margin-left: 110px;
+  margin-right: 110px;
+  @media screen and(max-width: 1279px) {
+    display: none;
+  }
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 541px;
+}
+.nav-list__link {
+  box-sizing: border-box;
+  display: block;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 13px;
+  padding-bottom: 16px;
+  height: 50px;
+  color: #ffffff;
+  &:hover {
+    color: #d41443;
+  }
+}
+// -----------------MOB-MENU-----------------------
+.mob-menu {
+  display: none;
+  position: fixed;
+  background-color: #e17992;
+  top: 0;
+  right: 0;
+  width: 250px;
+  // width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  // padding-top: 10px;
+  @media screen and(min-width: 1280px) {
+    display: none;
+  }
+}
+// --------------------MODAL-BTN----------------------
 .header__modal-btn-position {
   @media screen and(max-width: 767px) {
     display: none;
@@ -151,6 +207,9 @@ img {
   padding-top: 1px;
   @media screen and(min-width: 768px) {
     margin-left: 30px;
+  }
+  @media screen and(min-width: 1280px) {
+    margin: 0px;
   }
 }
 .header__modal-btn {
@@ -478,6 +537,10 @@ img {
   right: 0px;
   background-color: #fff;
   border-radius: 50%;
+  @media screen and(min-width: 1280px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 .sixteen-figure-position {
   position: absolute;
