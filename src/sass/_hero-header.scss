@@ -171,6 +171,9 @@ img {
   color: #d41443;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover {
+    background-color: #ecebeb;
+  }
 }
 .header__modal-btn-svg {
   margin-left: 12.8px;
@@ -190,6 +193,12 @@ img {
     top: 31px;
     left: 307px;
   }
+  @media screen and(min-width: 1280px) {
+    width: 538px;
+    height: 538px;
+    top: 52px;
+    left: 475px;
+  }
 }
 
 .ice-cream {
@@ -207,6 +216,11 @@ img {
     height: 336px;
     right: 247px;
   }
+  @media screen and(min-width: 1280px) {
+    width: 236px;
+    height: 557px;
+    right: 450px;
+  }
 }
 .title-position {
   display: block;
@@ -221,6 +235,12 @@ img {
     width: 162px;
     height: auto;
     left: 34px;
+  }
+  @media screen and(min-width: 1280px) {
+    width: 277px;
+    height: 207px;
+    left: 115px;
+    bottom: 292px;
   }
 }
 .hero__title--white {
@@ -242,7 +262,18 @@ img {
     text-transform: uppercase;
     color: #ffffff;
   }
+  @media screen and(min-width: 1280px) {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
+
 .hero__title--red {
   font-family: Titan One;
   font-style: normal;
@@ -261,6 +292,16 @@ img {
     text-transform: uppercase;
     color: #d41443;
   }
+  @media screen and(min-width: 1280px) {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 90.5%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
 }
 
 .hero-list {
@@ -270,12 +311,18 @@ img {
   @media screen and(min-width: 768px) {
     margin-top: 20px;
   }
+  @media screen and(min-width: 1280px) {
+    height: 40px;
+    margin-top: 25px;
+  }
 }
+
 .hero__link {
-  min-width: 61.2px;
   height: 24px;
   border-radius: 25px;
-  padding: 7px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
@@ -283,21 +330,47 @@ img {
   line-height: 10px;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @media screen and(min-width: 1280px) {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+  }
 }
 
 .hero__link--color-red {
   color: #ffffff;
   background-color: #d41443;
   width: 62.4px;
+  &:hover {
+    background-color: #c7133e;
+  }
+  @media screen and(min-width: 1280px) {
+    width: 104px;
+  }
 }
 .hero__link--color-white {
   color: #d41443;
   background-color: #fff;
   width: 82.8px;
+  &:hover {
+    background-color: #ecebeb;
+  }
+  @media screen and(min-width: 1280px) {
+    width: 138px;
+  }
 }
 
 .hero__item:nth-child(2) {
   margin-left: 8px;
+  @media screen and(min-width: 1280px) {
+    margin-left: 15px;
+  }
 }
 .bio-eco {
   @media screen and(max-width: 767px) {
@@ -308,6 +381,12 @@ img {
   bottom: 28px;
   width: 124px;
   height: 126px;
+  @media screen and(min-width: 1280px) {
+    width: 188px;
+    height: 191px;
+    left: 77px;
+    bottom: 45px;
+  }
 }
 .girl-hero {
   @media screen and(max-width: 767px) {
@@ -318,6 +397,11 @@ img {
   height: 133px;
   right: 34px;
   bottom: 0px;
+  @media screen and(min-width: 1280px) {
+    width: 293px;
+    height: 232px;
+    right: 109px;
+  }
 }
 .hero-text-position {
   @media screen and(max-width: 767px) {
@@ -328,6 +412,12 @@ img {
   height: 48px;
   left: 154px;
   bottom: 59px;
+  @media screen and(min-width: 1280px) {
+    width: 200px;
+    height: 78px;
+    left: 295px;
+    bottom: 102px;
+  }
 }
 .hero-text {
   font-family: DM Sans;
@@ -336,7 +426,16 @@ img {
   font-size: 8px;
   line-height: 150%;
   color: #ffffff;
+  @media screen and(min-width: 1280px) {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ffffff;
+  }
 }
+
 .arrow-right {
   @media screen and(max-width: 767px) {
     display: none;
@@ -346,6 +445,17 @@ img {
   height: 18px;
   left: 154px;
   bottom: 34px;
+  @media screen and(min-width: 1280px) {
+    width: 26px;
+    height: 26px;
+    left: 295px;
+    bottom: 56px;
+  }
+}
+.figures {
+  @media screen and(max-width: 767px) {
+    display: none;
+  }
 }
 .sixteen-position {
   position: absolute;
@@ -353,6 +463,12 @@ img {
   right: 34px;
   width: 43px;
   height: 44px;
+  @media screen and(min-width: 1280px) {
+    top: 156px;
+    right: 97px;
+    width: 72px;
+    height: 77px;
+  }
 }
 .small-circle {
   position: absolute;
@@ -368,6 +484,10 @@ img {
   top: 2px;
   right: 10px;
   z-index: 5;
+  @media screen and(min-width: 1280px) {
+    top: 4px;
+    right: 18px;
+  }
 }
 .sixteen-figure {
   font-family: Titan One;
@@ -379,19 +499,79 @@ img {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
+  @media screen and(min-width: 1280px) {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 53px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
 }
+
 .sixteen-text-position {
   width: 20px;
   height: 10px;
   position: absolute;
   bottom: 0;
   right: 10px;
+  @media screen and(min-width: 1280px) {
+    width: 35px;
+    height: 18px;
+    right: 18px;
+  }
 }
-.sixteen-text {
+.figure-text {
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 8px;
   line-height: 10px;
   color: #ffffff;
+  @media screen and(min-width: 1280px) {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #ffffff;
+  }
+}
+.twenty-three-position {
+  position: absolute;
+  top: 151px;
+  right: 34px;
+  width: 51px;
+  height: 43px;
+  @media screen and(min-width: 1280px) {
+    top: 248px;
+    right: 97px;
+    width: 92px;
+    height: 76px;
+  }
+}
+.twenty-three-figure-position {
+  position: absolute;
+  top: 1px;
+  right: 8px;
+  z-index: 5;
+  @media screen and(min-width: 1280px) {
+    top: 3px;
+    right: 18px;
+  }
+}
+.twenty-three-text-position {
+  width: 43px;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 8 px;
+  @media screen and(min-width: 1280px) {
+    width: 74px;
+    height: 18px;
+    right: 18px;
+  }
 }
