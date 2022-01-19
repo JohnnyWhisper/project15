@@ -102,7 +102,7 @@
     align-self: flex-end;
   }
   @media screen and (min-width: 1280px) {
-    width: 463px;
+    min-width: 463px;
     margin-left: 74px;
     align-self: flex-start;
     padding-top: 47px;
@@ -159,6 +159,7 @@
   height: 44px;
   background-color: #ffffff;
   color: #d41443;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   font-family: DM Sans;
   font-weight: 700;
   font-size: 14px;
