@@ -54,10 +54,7 @@
 }
 
 .reviews-section__photo {
-  width: 85px;
-  height: 85px;
   margin-bottom: 29px;
-  display: block;
   margin-right: auto;
   margin-left: auto;
   @media screen and (min-width: 768px) {
@@ -69,6 +66,24 @@
 }
 
 .review-text-container {
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    padding-top: 30px;
+    padding-bottom: 28px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  width: 280px;
+  margin-bottom: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 43px 66px 26px 57px;
+  z-index: 3;
+  position: relative;
   background-color: #fafafa;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -172,7 +187,6 @@
     background-image: url('../images/customer-reviews/red-dots.png');
   }
 }
-
 
 .elipsis-list__item:not(:last-child) {
   margin-right: 10px;
