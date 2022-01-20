@@ -3,12 +3,10 @@
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
-    
   }
   @media screen and (min-width: 768px) {
     max-width: 768px;
   }
-
 
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
@@ -25,4 +23,7 @@
   @media screen and (min-width: 1280px) {
     background-image: linear-gradient(to bottom, #fff5f6 39.76%, #ffffff 10%);
   }
+}
+.gallery__img {
+  width: 100%;
 }
