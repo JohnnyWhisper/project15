@@ -21,8 +21,8 @@
 .products__item {
     position: relative;
     display: block;
-    width: 280px;
-    height: 485px;
+    min-width: 280px;
+    min-height: 485px;
     border-radius: 24px;
     padding-left: 40px;
     padding-right: 40px;
@@ -32,7 +32,7 @@
     }
 
     @media screen and (min-width: 768px) {
-        width: 220px;
+        min-width: 220px;
         padding-top: 152px;
         padding-left: 10px;
         padding-right: 10px;
@@ -57,8 +57,8 @@
   background: #ffb8ca;
 
   @media screen and (min-width: 1280px) {
-    width: 329px;
-    height: 525px;
+    min-width: 329px;
+    min-height: 525px;
     padding-left: 64.5px;
     padding-right: 64.5px;
     padding-top: 163px;
@@ -112,8 +112,8 @@
   background: #f0d1a5;
 
   @media screen and (min-width: 1280px) {
-    width: 329px;
-    height: 525px;
+    min-width: 329px;
+    min-height: 525px;
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 163px;
@@ -165,8 +165,8 @@
   background: #c2e297;
 
   @media screen and (min-width: 1280px) {
-    width: 329px;
-    height: 525px;
+    min-width: 329px;
+    min-height: 525px;
     padding-left: 63.7px;
     padding-right: 63.7px;
     padding-top: 163px;
@@ -278,11 +278,6 @@
     &::after {
         position: absolute;
         content: "";
-        // display: block;
-        // margin-left: auto;
-        // margin-right: auto;
-        // margin-top: 30px;
-        // margin-bottom: 30px;
         top: 53px;
         left: 86px;
         width: 26px;
